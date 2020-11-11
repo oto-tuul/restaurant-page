@@ -5,7 +5,7 @@ let homeTab = function homeTab () {
     content.appendChild(tab);
 
     let tabContent = document.createElement('img');
-    tabContent.src = '../src/chef.jpg';
+    tabContent.src = 'https://github.com/oto-tuul/restaurant-page/raw/master/dist/811fcd0ae46acf8e2c8daa1b0c57dee7.jpg';
     tab.appendChild(tabContent);
 
     let tabContent2 = document.createElement('p');
