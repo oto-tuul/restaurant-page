@@ -25,6 +25,7 @@ let initLoad = function initLoad() {
     let homeLink = document.createElement('a');
     let homeLinkText = document.createTextNode('Home');
     homeLink.href = '#';
+    home.id = 'home';
     homeLink.appendChild(homeLinkText);
     home.appendChild(homeLink);
     ul.appendChild(home);
@@ -33,6 +34,7 @@ let initLoad = function initLoad() {
     let menuLink = document.createElement('a');
     let menuLinkText = document.createTextNode('Menu');
     menuLink.href = '#';
+    menu.id = 'menu';
     menuLink.appendChild(menuLinkText);
     menu.appendChild(menuLink);
     ul.appendChild(menu);
@@ -41,6 +43,7 @@ let initLoad = function initLoad() {
     let contactLink = document.createElement('a');
     let contactLinkText = document.createTextNode('Contact');
     contactLink.href = '#';
+    contact.id = 'contact';
     contactLink.appendChild(contactLinkText);
     contact.appendChild(contactLink);
     ul.appendChild(contact);
